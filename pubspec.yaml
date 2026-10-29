@@ -1,0 +1,23 @@
+name: todo_app
+description: "Lista de Tarefas (Todo App) feita com Flutter e sqflite."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Banco de dados SQLite dentro do celular
+  sqflite: ^2.3.0
+  # Ajuda a montar o caminho do arquivo do banco
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
