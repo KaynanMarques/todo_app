@@ -1,0 +1,24 @@
+# Arquivos gerados automaticamente (não vão para o GitHub)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Arquivos de editores
+*.iml
+*.ipr
+*.iws
+.idea/
+.DS_Store
+*.swp
+
+# Símbolos e informações de build
+app.*.symbols
+app.*.map.json
+/android/app/debug
+/android/app/profile
+/android/app/release
